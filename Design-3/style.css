@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Moderustic;
+
+}
+body {
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+}
+
+.section-1 {
+  display:inline-block;
+  width: 100vw;
+  height: 100vh;
+  /* background-color: red; */
+
+}
+
+
+.nav-bar {
+  display:inline-flex;
+  height:15%;
+  width: 100%;
+  left:0;
+  top:0;
+  padding-top:2%;
+  /* background-color:blue; */
+}
+
+
+.logo-div {
+  display:flex;
+  height:100%;
+  width:10%;
+  margin-left: 5%;
+  /* background-color: green; */
+}
+
+.logo-img {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+
+
+.tools-div {
+  margin-left:2%;
+  display:inline-flex;
+  height:100%;
+  justify-content:space-evenly;
+  width:60%;
+  /* background-color:wheat; */
+}
+
+.find-passion-div ,.categories-div ,.skills-div ,.customer-div{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100%;
+  width:20%;
+  /* background-color: lightskyblue; */
+  
+}
+.tools-btns {
+  height:50%;
+  width: 80%;
+  border:none;
+  font-size:1.1rem;
+  background-color:white;
+  cursor: pointer;
+  transition: all 0.35s;
+}
+.tools-btns:hover {
+  text-decoration: underline;
+  width: 85%;
+  height: 55%;
+  font-size:1.15rem;
+}
+.logins-div {
+  display:inline-flex;
+  justify-content:space-evenly;
+  height:100%;
+  width:35%;
+  margin-right:5%;
+  /* background-color: lightcoral; */
+}
+
+.login-div , .free-trail-div {
+  width: 30%;
+  height: 100%;
+  /* background-color: lightsalmon; */
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.login-div {
+  border-left: 1px black solid;
+
+}
+
+
+
+.login-btn {
+  height: 40%;
+  width: 50%;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border: none;
+  background-color: white;
+  transition: all 0.35s;
+
+
+}
+.login-btn:hover {
+  width: 60%;
+  height: 50%;
+  font-size:1.25rem;
+  text-decoration: underline;
+}
+
+.free-trail-btn {
+  cursor: pointer;
+  height: 70%;
+  width: 100%;
+  border-radius: 25px;
+  border:none;
+  background-color:black;
+  color:white;
+  font-size: 1.1rem;
+  transition: all 0.35s;
+}
+.free-trail-btn:hover {
+  background-color: #97C680;
+  color:black;
+}
+
+
+.container-1 {
+  padding-top: 2%;
+  display: inline-flex;
+  padding-left: 5%;
+  height: 85%;
+  width: 100%;
+  /* background-color: #97C680; */
+}
+
+.left-container{
+  position: relative;
+  display:inline-flex;
+  justify-content: center;
+  width: 30%;
+  height: 100%;
+  /* background-color: lightcyan ; */
+}
+.right-container {
+  display: flex;
+  align-items: center;
+  width: 64.7%;
+  height: 100%;
+  /* background-color: lightgoldenrodyellow; */
+}
+
+.img1, .img2, .img3 {
+  object-fit: cover;
+  height: 90%;
+  border-radius: 45px;
+  transition: all 0.35s;
+  margin-left: 3%;
+}
+
+.img1 {
+  width: 50%;
+}
+
+.img2,
+.img3 {
+  width: 20%;
+}
+
+.img2:hover {
+  width: 50%;
+}
+
+.img3:hover {
+  width: 50%;
+}
+
+.text-div {
+  margin-top: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size:4.2rem;
+  font-weight:bold;
+  width: 100%;
+  height: 75%;
+  /* background-color: lightcoral; */
+}
+
+.section-2 {
+  height: 100vh;
+  /* background-color: blue; */
+}
+
+.text-input {
+  display: flex;
+  position: absolute;
+  top: 80%;
+  height: 20%;
+  width: 100%;
+  font-size: 1.1rem;
+  background-color: white;
+}
+.input {
+  height: 50%;
+  width: 55%;
+  padding:20px;
+  /* background-color: blueviolet; */
+}
+.input-go {
+  height: 50%;
+  width: 20%;
+  border: none;
+  color:white;
+  font-size: 1.5rem;
+  background-color: #1E1E2F;
+  cursor: pointer;
+  transition: all 0.35s;
+}
+.input-go:hover {
+  background-color: #303049;
+}
